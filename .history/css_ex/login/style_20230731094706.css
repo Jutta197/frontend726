@@ -1,0 +1,37 @@
+.container {
+    width: 300px;
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#username,
+#password {
+    width: 150px;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+#submit-button {
+    background-color: aquamarine;
+
+}
+
+
+/* div {
+    text-align: center;
+    border-style: dashed solid dotted;
+    border-width: 7px;
+    border-color: aquamarine;
+    border-radius: 10px;
+    padding: 20px 10px;
+    background-color: azure;
+    margin: 50px 50px;
+
+} */

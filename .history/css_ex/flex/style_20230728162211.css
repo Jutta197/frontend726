@@ -1,0 +1,13 @@
+header {
+    background-color: aqua;
+}
+
+ul {
+    display: flex;
+    gap: 0 10px;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}

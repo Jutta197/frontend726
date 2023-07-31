@@ -1,0 +1,23 @@
+.parent-box {
+    width: 1000px;
+    height: 800px;
+    background-color: antiquewhite;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+}
+
+.box1 {
+    background-color: aqua;
+}
+
+.box2 {
+    background-color: blue;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
