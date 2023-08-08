@@ -19,8 +19,8 @@ h1 {
 }
 
 #submit-button {
-    background-color: aquamarine;
-    color: aliceblue;
+    background-color: rgba(127, 255, 212, 0.264);
+    color: rgba(3, 27, 48, 0.829);
     width: 50%;
     padding: 10px;
     border-radius: 6px;
