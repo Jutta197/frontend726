@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Book Information</title>
+    <script>
+        // Simulated JSON data
+        var bookData = {
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "year": 1925,
+            "genre": "Novel"
+        };
+
+        // Function to render JSON data on the page
+        function renderBookInfo(data) {
+            document.getElementById("bookTitle").textContent = data.title;
+            document.getElementById("author").textContent = "Author: " + data.author;
+            document.getElementById("year").textContent = "Year: " + data.year;
+            document.getElementById("genre").textContent = "Genre: " + data.genre;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Book Information</h1>
+    <div>
+        <h2 id="bookTitle"></h2>
+        <p id="author"></p>
+        <p id="year"></p>
+        <p id="genre"></p>
+    </div>
+
+    <script>
+        // Call the render function with JSON data
+        renderBookInfo(bookData);
+    </script>
+</body>
+
+</html>
